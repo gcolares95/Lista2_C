@@ -14,7 +14,6 @@ int main() {
     CB = 0;
     CR = 0;
 
-    
     do 
     {  
         scanf("%c", &TV);
@@ -43,8 +42,8 @@ int main() {
         PR = (CR * 100) / CONV;
         
         printf("Porcentagem de tintos = %f\n", PT);
-        printf("Porcentagem de tintos = %f\n", PB);
-        printf("Porcentagem de tintos = %f\n", PR);
+        printf("Porcentagem de Brancos = %f\n", PB);
+        printf("Porcentagem de Roses = %f\n", PR);
     }
     else {
         printf("Nenhum tipo de vinho fornecido");

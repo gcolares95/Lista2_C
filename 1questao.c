@@ -15,7 +15,7 @@ int main() {
       
         MA = (n1 + n2 + n3 + n4) / 4;
 
-        printf("media atual = %.1f\n", MA);
+        printf("media anual = %.1f\n", MA);
         if(MA >= 7) {
             printf("Aluno aprovado!\n");
             printf("Parabéns!");
